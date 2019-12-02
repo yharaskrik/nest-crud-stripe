@@ -1,11 +1,28 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "test": "yarn s test",
+    "s": "npx nps"
+  },
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "@nestjs/testing": "^6.10.4",
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "lerna": "^3.19.0",
+    "nps": "^5.9.8",
+    "nps-utils": "^1.7.0",
+    "ts-jest": "^24.2.0",
+    "tsconfig-extends": "^1.0.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2"
   },
   "dependencies": {
+    "@nestjs/common": "^6.10.4",
+    "@nestjs/core": "^6.10.4",
     "@nestjsx/crud": "^4.2.0",
+    "@types/stripe": "^7.13.11",
+    "class-validator": "^0.11.0",
     "stripe": "^7.14.0"
   }
 }

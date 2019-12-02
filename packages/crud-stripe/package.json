@@ -1,0 +1,26 @@
+{
+  "name": "crud-stripe",
+  "version": "0.0.0",
+  "description": "CRUD Setup for Stripe API",
+  "author": "Jay Bell <jaycooperbell@gmail.com>",
+  "homepage": "https://github.com/yharaskrik/nest-crud-stripe#readme",
+  "license": "ISC",
+  "main": "lib/crud-stripe.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yharaskrik/nest-crud-stripe.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/yharaskrik/nest-crud-stripe/issues"
+  }
+}
